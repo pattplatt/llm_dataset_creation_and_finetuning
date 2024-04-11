@@ -1,3 +1,5 @@
+The included scripts were generated in a study project, where a dataset from Aalen University was generated using the ChatGPT API. The dataset was then finetuned on a small LLM. The final work is in the repo and linked [here](https://github.com/pattplatt/llm_dataset_creation_and_finetuning/blob/master/Customization_of_Large_Language_Models_to_User_Defined_Data.pdf).
+
 ### Use the data generator script
 To use dataset_generator.ipynb you have to get an OpenAI API key and import it into the script or set it as an environment variable.
 
