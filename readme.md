@@ -14,12 +14,11 @@ In a jupyter notebook or python file run the following lines:
 
 litgpt finetune lora --checkpoint_dir '/mnt/d/dev/llm_dataset_testing/checkpoints/TinyLlama/TinyLlama-1.1B-Chat-v1.0' --data JSON --data.json_path data/ --train.micro_batch_size 1 --train.global_batch_size 1 --train.epochs 1
 
-litgpt merge_lora     --checkpoint_dir out/finetune/lora/final
-
 litgpt convert from_litgpt     --checkpoint_dir out/finetune/lora/final    --output_dir out/hf_checkpoint
 ```
 You can use the validation.ipynb to evaluate the finetuning.
 
 One Epoch:
-Training time: 770.28s
+Training time 3060Ti: 770.28s
+Training Time M1:2885.12s
 Memory used: 7.45 GB
